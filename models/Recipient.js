@@ -3,7 +3,7 @@ const { Schema } = mongoose;
 
 const recipentSchema = new Schema({
 email: String,
-respnded: {type: boolean, default:false}
+respnded: {type: Boolean, default:false}
 });
 
 module.exports = recipentSchema;
